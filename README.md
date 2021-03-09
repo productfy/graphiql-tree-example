@@ -3,6 +3,8 @@
 Example of installing the [@productfy/grapiql-tree](https://github.com/productfy/graphiql-tree) plugin for the GraphiQL IDE that allows
 you to explore a GraphQL schema in a manner similar to a file explorer interface.
 
+You can test drive this app with the GitHub API GraphQL schema at https://static.productfy.io/graphql/
+
 ## Setup
 
 This example app pulls and makes calls against the GitHub API. For this, you will need a GitHub
