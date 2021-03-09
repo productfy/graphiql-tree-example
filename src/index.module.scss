@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+}
+
+#root {
+  height: 100vh;
+}
+
+.githubToken {
+  height: 34px;
+  margin-bottom: -34px;
+  z-index: 300;
+  position: relative;
+  margin-left: 5vw;
+  top: calc(2.5vh + 6px);
+  display: table;
+
+  input {
+    width: 20vw;
+    margin-left: 1em;
+  }
+}
+
+.select {
+  display: grid;
+  grid-template-areas: 'select';
+  align-items: center;
+  font-family: 'IBM Plex Mono', monospace;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(60, 66, 87, 0.16) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+  margin: 4px 0;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+
+  select {
+    // A reset of styles, including removing the default dropdown arrow
+    appearance: none;
+    // Additional resets for further consistency
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    padding: 4px 28px 4px 8px;
+    margin: 0;
+    width: 100%;
+    font-family: inherit;
+    font-size: 13px;
+    cursor: inherit;
+    line-height: inherit;
+    grid-area: select;
+    height: 28px;
+    text-overflow: ellipsis;
+  }
+
+  &::after {
+    content: '';
+    width: 0.8em;
+    height: 0.5em;
+    background-color: #ccc;
+    clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+    grid-area: select;
+    justify-self: end;
+    margin-right: 0.6em;
+  }
+}

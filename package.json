@@ -1,0 +1,63 @@
+{
+  "name": "@productfy/graphiql-tree-example",
+  "version": "0.1.0",
+  "private": false,
+  "homepage": "./",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/productfy/graphiql-tree-example.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Bao Ngo",
+    "email": "bingo@productfy.io"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "start": "react-scripts start --no-cache"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "dependencies": {
+    "@productfy/graphiql-tree": "^0.5.1",
+    "classnames": "^2.2.6",
+    "codemirror": "^5.58.3",
+    "graphiql": "^1.2.1",
+    "graphql": "^15.4.0",
+    "lodash": "^4.17.20",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@graphiql/toolkit": "^0.1.1",
+    "@types/classnames": "^2.2.11",
+    "@types/codemirror": "^0.0.103",
+    "@types/lodash": "^4.14.167",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "eslint-config-react-app": "^6.0.0",
+    "node-sass": "^5.0.0",
+    "prop-types": "^15.7.2",
+    "raw.macro": "^0.4.2",
+    "react-scripts": "^4.0.1",
+    "typescript": "^4.1.3",
+    "worker-loader": "^3.0.7"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}
